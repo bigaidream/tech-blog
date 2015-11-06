@@ -1,0 +1,9 @@
+@(Cabinet)[published|thinking]
+
+# Principled Machine Learning
+
+"The beauty of machine learning is that it can be fairly application agnostic. That is, many seemingly diverse problems, e.g. activity recognition in videos and the segmentation of documents into paragraph or optical character recognition and the detection of cancer share very similar underlying technology. Obviously it needs adjustment, but the basic ideas tend to be fairly universal." - [Alex Smola](http://alex.smola.org/). 
+
+"The goal of principled machine learning for practical applications is to provide provably cheap, efficient, and generic methods to detect patterns in real-world data." - Claire Monteleoni. For a principled approach, theoretical models are indispensable. Some of the distinct benefits, both qualitative and quantitative, include: "To help provide structure in thinking about a given instance of the problem that one cares about, and the various design choices that need to be made; To bring out and clarify important issues, tradeoffs, or subtle distinctions; To provide guarantees for algorithms and understand what kinds of guarantees are achievable." - Avrim Blum. 
+
+"All fundamental intuition we have about our world is essentially analytical. Pure numerics would drive us to chaos in no time." - Leonid Shifrin. However, "making a discipline overly academic means creating a self-contained, overly-mathematical, self-citing, and jargon-filled discipline who doesn’t care about world-impact but only cares to propagates a small community's citations counts."-- Tomasz Malisiewicz (blog [link](http://quantombone.blogspot.sg/2012_07_01_archive.html) on ICML 2012, Machine Learning that Matters). Peter Norvig also argues about [Two Cultures about Statistical Learning](http://norvig.com/chomsky.html). 

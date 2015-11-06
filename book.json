@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        "mathjax",
+        "toc",
+        "disqus"
+    ],
+    "pluginsConfig": {
+            "disqus": {
+        "shortName": "bigaidream"
+    }
+    }
+}
