@@ -1,6 +1,10 @@
 # Summary
 
 * [2015](2015/README.md)
+	* [Structured Math Proof](2015/structured-math-proof.md)
+	* [Proud to be a Bottom-up Doer and More](2015/bottom-up-doer.md)
+	* [The Last Mile of Analytics](2015/last-mile-analytics.md)
+	* [180 Coding Experiments in 180 Days](2015/180-coding-180-days.md)
 
 
 
