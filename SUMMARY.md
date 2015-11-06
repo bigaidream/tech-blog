@@ -1,10 +1,10 @@
 # Summary
 
-* [2015]
+* [2015](2015/README.md)
 
 
 
-* [2014]
+* [2014](2014/README.md)
 	* [Make It Stick](2014/make-it-stick.md)
 	* [Only the Best-Educated Humans Can and Will Compete with Machines](2014/humans-compete-machines.md)
 	* [On Theoretical and Practical Machine Learning](2014/theoretical-practical-ml.md)
