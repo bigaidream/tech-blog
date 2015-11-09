@@ -1,7 +1,7 @@
-@(Cabinet)[how_to_study_general|published]
+<!-- toc -->
+
 
 # Make It Stick (Digest)
-[TOC]
 
 > This is a digest of the book [*Make it stick*](http://www.amazon.com/Make-Stick-Peter-C-Brown-ebook/dp/B00JQ3FN7M/ref=sr_1_1?s=books&ie=UTF8&qid=1428056260&sr=1-1&keywords=make+it+stick). I'm assuming that uploading the digest alone should be alright. If I were wrong, please let me know (http://bigaidream.github.io/contact.html) as soon as possible, and I will delete it immediately.
 
