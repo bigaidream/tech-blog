@@ -1,6 +1,7 @@
 # Summary
 
 * [2015](2015/README.md)
+	* [Squeezing Training Data, Squeezing Publication Time](2015/squeezing-data-time.md)
 	* [Structured Math Proof](2015/structured-math-proof.md)
 	* [Proud to be a Bottom-up Doer and More](2015/bottom-up-doer.md)
 	* [The Last Mile of Analytics](2015/last-mile-analytics.md)
