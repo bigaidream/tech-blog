@@ -1,4 +1,7 @@
 # Summary
+* [2016](2016/README.md)
+	* [Reading code in GitHub made a bit easier](2016/code-github.md)
+
 
 * [2015](2015/README.md)
 	* [Structured Math Proof](2015/structured-math-proof.md)
