@@ -14,3 +14,5 @@ I've been reading Lua/Torch code recently. Maybe I'm spoiled by Python community
 The approach I take is ...hmm... stupid and manual: I fork those libraries I have to refer to frequently and pull them to my local systems. Then I can use Pycharm, Eclipse, Sublime or Atom to view those lovely and beautiful codes. 
 
 So far so good. 
+
+PS: I still wonder why Torch community does not like documentation generator, which is quite popular in Python community?
