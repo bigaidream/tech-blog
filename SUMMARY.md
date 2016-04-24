@@ -1,6 +1,7 @@
 # Summary
 * [2016](2016/README.md)
 	* [Reading code in GitHub made a bit easier](2016/code-github.md)
+	* [Install Ubuntu on Amazon AWS g2 with CUDA](2016/aws-setup.md)
 
 
 * [2015](2015/README.md)
