@@ -4,6 +4,8 @@
 
 # Install Ubuntu on Amazon AWS g2 with CUDA
 
+> date: 2016-04-24
+
 Based on http://tleyden.github.io/blog/2014/10/25/cuda-6-dot-5-on-aws-gpu-instance-running-ubuntu-14-dot-04/
 
 Also got lots of help from my friend David. 
