@@ -2,7 +2,7 @@
 
 @(Cabinet)[cluster]
 
-# Install Ubuntu on Amazon AWS g2 with CUDA
+# Install Ubuntu 14.04 on Amazon AWS g2 with CUDA
 
 > date: 2016-04-24
 
