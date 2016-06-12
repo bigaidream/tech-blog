@@ -2,7 +2,7 @@
 * [2016](2016/README.md)
 	* [Install Ubuntu on Amazon AWS g2 with CUDA](2016/aws-setup.md)
 	* [Reading code in GitHub made a bit easier](2016/code-github.md)
-	
+	* [Thoughts on Hyperparameters Optimization for Deep Learning](2016/thoughts-hyperparameters.md)
 
 
 * [2015](2015/README.md)
