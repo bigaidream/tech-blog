@@ -1,19 +1,20 @@
 # Thoughts on Hyperparameters Optimization for Deep Learning
 
 > Date: 2016-June-12
+
 > Author: Jie Fu, http://bigaidream.github.io/
 
-## Motivations: Important Things Only
+## Motivation: important things only
 
 > When I read papers, I always wonder how the authors really come up with those ideas. Thus I'm trying to share my mental journeys here. 
 
 As shown in [Bayesian Optimization of Text Representations](http://arxiv.org/abs/1503.00693), standard linear models tuned carefully can be competitive with more sophisticated, expensive state-of-the-art methods based on latent variable models or neural networks on various topic classification and sentiment analysis problems. 
 
-Currently, it seems that only Google has the ability to automatically tune hyperparameters with its huge clusters. I personally know a researcher who designed a new algorithm and compared it with a vanilla RNN. He said the RNN is with `defaut` settings and thus it's fair, which is definitely not! Because the number of  his specific dataset is much smaller than the one used in the RNN reference paper, the RNN used in his experiment is overfitting. Similar observations can be found in the paper [LSTM: A Search Space Odyssey](http://arxiv.org/abs/1503.04069). 
+Currently, it seems that only Google has the ability to automatically tune hyperparameters with its huge clusters. I personally know a PhD student who designed a new algorithm and compared it with a vanilla RNN. He said the RNN is with "defaut" settings and thus it's fair, which is definitely not! Because the number of  his specific dataset is much smaller than the one used in the RNN reference paper, the RNN used in his experiment is overfitting. Similar observations can be found in the paper [LSTM: A Search Space Odyssey](http://arxiv.org/abs/1503.04069). 
 
-I thus decide to work on efficient and effective hyperparameter optimization problems such that machine learning researchers can focus more on real and important research problems without worring about anoying hyperparameter tuning problems. 
+I decide to work on efficient and effective hyperparameter optimization problems so that machine learning researchers can focus more on real and important research problems without worring about anoying hyperparameter tuning. 
 
-## BO seems not appropriate for tuning DNN
+## BO seems not appropriate for tuning deep learning
 I played around with Bayesian optimization, BO,  (or called bandit) for tuning learning rates since 2014, but it failed utterly. In contrast to DQNs, most of the BO algorithms have very rigorous proof (this is even partially true for Thompson sampling). 
 
 However, BO algorithms usually (except for contextual or dynamic bandits) only have one state, and they do not have influence over the environment but only sense and learn from it. 
@@ -52,7 +53,7 @@ Since I just finished DrMAD project, I know that the training trajectories of de
 
 The following things should be relatively easy. 
 
-## Lessons Learned
+## Lesson learned
 
 >Choose an 'important question' - that is, one that addresses a fundamental issue in the field; these questions might or might not be 'trendy'. Note that trendy areas are inevitably (and often inappropriately) competitive, and that future trends are not always predictable.  
 
