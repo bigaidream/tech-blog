@@ -1,4 +1,4 @@
-# Thoughts on Hyperparameters Optimization for Deep Learning
+# Thoughts on Hyperparameter Optimization for Deep Learning
 
 > Date: 2016-June-12
 
