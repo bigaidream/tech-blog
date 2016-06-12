@@ -3,15 +3,15 @@
 > Date: 2016-June-12
 > Author: Jie Fu, http://bigaidream.github.io/
 
-## Real Motivations: Alleviating the Avalanche of Low-Quality Research
+## Motivations: Important Things Only
 
 > When I read papers, I always wonder how the authors really come up with those ideas. Thus I'm trying to share my mental journeys here. 
 
 As shown in [Bayesian Optimization of Text Representations](http://arxiv.org/abs/1503.00693), standard linear models tuned carefully can be competitive with more sophisticated, expensive state-of-the-art methods based on latent variable models or neural networks on various topic classification and sentiment analysis problems. 
 
-In my opinion, some so-called `novel` ML application papers do not contribute to real knowledge. They propose a new method (tuned carefully) and compare it with other baseline method without tuning them carefully/at all. I personally know a researcher who designed a new algorithm and compared it with a vanilla RNN. He said the RNN is with `defaut` settings and thus it's fair, which is definitely not! Because the number of  his specific dataset is much smaller than the one used in the RNN reference paper, the RNN used in his experiment is overfitting. In other words, much of the improvements of so-called new methods come from the carefully tuned hyperparameters, instead of the new algorithms themselves. Similar conclusion can be found in the paper [LSTM: A Search Space Odyssey](http://arxiv.org/abs/1503.04069). 
+Currently, it seems that only Google has the ability to automatically tune hyperparameters with its huge clusters. I personally know a researcher who designed a new algorithm and compared it with a vanilla RNN. He said the RNN is with `defaut` settings and thus it's fair, which is definitely not! Because the number of  his specific dataset is much smaller than the one used in the RNN reference paper, the RNN used in his experiment is overfitting. Similar observations can be found in the paper [LSTM: A Search Space Odyssey](http://arxiv.org/abs/1503.04069). 
 
-To be honest, I might be able to graduate by publishing this kind of papers, but doing so will never help me with my big AI dream. I thus decide to work on efficient and effective hyperparameter optimization problems such that machine learning researchers can focus more on real and important research problems, rather than publishing papers with only negligibly incremental improvement. 
+I thus decide to work on efficient and effective hyperparameter optimization problems such that machine learning researchers can focus more on real and important research problems without worring about anoying hyperparameter tuning problems. 
 
 ## BO seems not appropriate for tuning DNN
 I played around with Bayesian optimization, BO,  (or called bandit) for tuning learning rates since 2014, but it failed utterly. In contrast to DQNs, most of the BO algorithms have very rigorous proof (this is even partially true for Thompson sampling). 
