@@ -12,7 +12,7 @@ As shown in [Bayesian Optimization of Text Representations](http://arxiv.org/abs
 
 Currently, it seems that only Google, Twitter or Facebook have the ability to automatically tune hyperparameters with their huge computer clusters. I personally know a PhD student who designed a new algorithm and compared it with a vanilla RNN. He said the RNN is with "defaut" settings and thus it's fair, which is definitely not! Because the number of  his specific dataset is much smaller than the one used in the RNN reference paper, the RNN used in his experiment is overfitting. Similar observations can be found in the paper [LSTM: A Search Space Odyssey](http://arxiv.org/abs/1503.04069). 
 
-I decide to work on efficient and effective hyperparameter optimization problems so that machine learning researchers/practitioners can focus more on real and important research problems without worring about anoying hyperparameter tuning. 
+I decide to work on efficient and effective hyperparameter optimization problems so that machine learning researchers/practitioners can focus more on real and important research problems without worring about hyperparameter tuning. 
 
 ## BO seems not suitable for tuning deep learning
 I played around with Bayesian optimization, BO,  (or called bandit) for tuning learning rates since 2014, but it failed utterly. In contrast to DQNs, most of the BO algorithms have very rigorous proof (this is even partially true for Thompson sampling). 
@@ -35,7 +35,7 @@ After having a rough idea, I did a brainstorm. Then I remembered that in the pap
 ## [QAN](https://github.com/bigaidream-projects/qan)
 After finishing DrMAD project, I came across the paper [Train faster, generalize better: Stability of stochastic gradient descent](https://arxiv.org/abs/1509.01240). Then I thought it might be interesting to design a practical method to improve deep networks. 
 
-As I got familiar with BO, I first did a brainstorm based on BO. Then I realized that, to some extent,  a DQN can be seen as a BO by adding more states and the ability to change the environment. 
+As I got familiar with BO, I first did a brainstorm based on BO. Then I realized that, to some extent, a DQN can be seen as a BO by adding more states and the ability to change the environment. 
 
 In fact, I first became interested in reinforcement learning when I was doing Masters in New Zealand. Lots of difficult computer vision tasks seem very ill-posed and unnatural to me. For example, when a baby sees a part of an object in distance, she will probably move towards that direction trying to observe it from more perspectives and touch or even bite it; she would rarely try to guess what the object is by sitting there and staring. 
 
@@ -45,7 +45,7 @@ Let's look at the following animation on the training of some convolutional filt
 
 http://cs.nyu.edu/~yann/research/sparse/psd-anim.gif
 
-Imaging that we are playing a weird Atari game with the above screen. The screen seems simpler than real Atari games'. This reminds me the difference between biomedical image processing and natural image processing. In biomedical images, the objects (e.g. red blood cells) are much simpler, thus needing simpler models. 
+Imagine that we are playing a weird Atari game with the above screen. The screen seems simpler than real Atari games'. This reminds me of the difference between biomedical image processing and natural image processing. In biomedical images, the objects (e.g. red blood cells) are much simpler, thus needing simpler models. 
 
 Compared to real Atari games, however, the positions of filters change at every episode due to the global update mechanism of back-propagation. To solve this, we need a way to fix them. 
 
@@ -57,4 +57,4 @@ The following things become relatively easy.
 
 >Choose an 'important question' - that is, one that addresses a fundamental issue in the field; these questions might or might not be 'trendy'. Note that trendy areas are inevitably (and often inappropriately) competitive, and that future trends are not always predictable.  
 
-Nancy Rothwell, Choices in neuroscience careers, Nature Reviews, 2008.
+[Choices in neuroscience careers](http://www.nature.com/nrn/journal/v9/n5/full/nrn2386.html), Nature Reviews Neuroscience, 2008, Tamas Bartfai, Tom Insel, Gord Fishell & Nancy Rothwell. 
