@@ -23,7 +23,7 @@ Put this into the context of tuning learning rates, BO methods are not aware of 
 
 I kept trying to apply/extend BO to hyperparameter optimization till the end of 2015. I felt that BO based hyperparameter tuning methods are so all-consuming: need lots of machines for weeks to tune less than 20 hyperparaemters. 
 
-## DrMAD
+## [DrMAD](https://github.com/nicholas-leonard/drmad)
 Last December, I came across the paper [Gradient-based Hyperparameter Optimization through Reversible Learning](http://arxiv.org/abs/1502.03492). It's a very promising direction but not practical yet. 
 
 At that time, I was also watching [One Punch Man](https://www.youtube.com/watch?v=_TUTJ0klnKk). The bald hero can always knock down the opponent in only one hit. Then I said to myself: can I do hyperparameter optimization also in one punch?
@@ -32,7 +32,7 @@ This is actually not that crazy. Sometimes, a very simple method can solve a big
 
 After having a rough idea, I did a brainstorm. Then I remembered that in the paper [Qualitatively characterizing neural network optimization problems](http://arxiv.org/abs/1412.6544), Ian Goodfellow showed that a very neat way to visualize the training trajectory of deep learning, which might be useful for my task. The following things become relatively easy.  
 
-## QAN
+## [QAN](https://github.com/bigaidream-projects/qan)
 After finishing DrMAD project, I came across the paper [Train faster, generalize better: Stability of stochastic gradient descent](https://arxiv.org/abs/1509.01240). Then I thought it might be interesting to design a practical method to improve deep networks. 
 
 As I got familiar with BO, I first did a brainstorm based on BO. Then I realized that, to some extent,  a DQN can be seen as a BO by adding more states and the ability to change the environment. 
