@@ -47,9 +47,7 @@ http://cs.nyu.edu/~yann/research/sparse/psd-anim.gif
 
 Imagine that we are playing a weird Atari game with the above screen. The screen seems simpler than real Atari games'. This reminds me of the difference between biomedical image processing and natural image processing. In biomedical images, the objects (e.g. red blood cells) are much simpler, thus needing simpler models. 
 
-Compared to real Atari games, however, the positions of filters change at every episode due to the global update mechanism of back-propagation. To solve this, we need a way to fix them. 
-
-Since I just finished DrMAD project, I know that the training trajectories of deep learning training between episodes tend to be similar. This reminds me of regression tasks. Interestingly, this can be seen as a catapult used in Angry Birds: at every episode, we use a regressor to "project" the DNN into the somewhat similar trajectory. We can also think of this as momentum used in SGD. 
+Compared to real Atari games, however, the positions of filters change at every episode due to the global update mechanism of back-propagation. To solve this, we need a way to fix them. I tried to add a regression loss to ensure that the weights across episodes have similar values, but did not work well. Then I used the statistics of weights during training instead, which works in practice. I think of computing the statistics as a special form of `pooling`. 
 
 The following things become relatively easy. 
 
