@@ -32,25 +32,6 @@ This is actually not that crazy. Sometimes, a very simple method can solve a big
 
 After having a rough idea, I did a brainstorm. Then I remembered that in the paper [Qualitatively characterizing neural network optimization problems](http://arxiv.org/abs/1412.6544), Ian Goodfellow showed that a very neat way to visualize the training trajectory of deep learning, which might be useful for my task. The following things become relatively easy.  
 
-## [QAN](https://github.com/bigaidream-projects/qan)
-After finishing DrMAD project, I came across the paper [Train faster, generalize better: Stability of stochastic gradient descent](https://arxiv.org/abs/1509.01240). Then I thought it might be interesting to design a practical method to improve deep networks. 
-
-As I got familiar with BO, I first did a brainstorm based on BO. Then I realized that, to some extent, a DQN can be seen as a BO by adding more states and the ability to change the environment. 
-
-In fact, I first became interested in reinforcement learning when I was doing Masters in New Zealand. Lots of difficult computer vision tasks seem very ill-posed and unnatural to me. For example, when a baby sees a part of an object in distance, she will probably move towards that direction trying to observe it from more perspectives and touch or even bite it; she would rarely try to guess what the object is by sitting there and staring. 
-
-Next, I decide to cast this problem into a Atari game problem, which has already been solved using DQN. 
-
-Let's look at the following animation on the training of some convolutional filters:
-
-http://cs.nyu.edu/~yann/research/sparse/psd-anim.gif
-
-Imagine that we are playing a weird Atari game with the above screen. The screen seems simpler than real Atari games'. This reminds me of the difference between biomedical image processing and natural image processing. In biomedical images, the objects (e.g. red blood cells) are much simpler, thus needing simpler models. 
-
-Compared to real Atari games, however, the positions of filters change at every episode due to the global update mechanism of back-propagation. To solve this, we need a way to fix them. I tried to add a regression loss to ensure that the weights across episodes have similar values, but did not work well. Then I used the statistics of weights during training instead, which works in practice. I think of computing the statistics as a special form of `pooling`. 
-
-The following things become relatively easy. 
-
 ## Lesson learned
 
 >Choose an 'important question' - that is, one that addresses a fundamental issue in the field; these questions might or might not be 'trendy'. Note that trendy areas are inevitably (and often inappropriately) competitive, and that future trends are not always predictable.  
